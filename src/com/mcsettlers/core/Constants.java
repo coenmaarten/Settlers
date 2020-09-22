@@ -15,13 +15,15 @@ import org.bukkit.ChatColor;
 public class Constants {
 
 
-    public static final String ON_ENABLE_MESSAGE = "Settlers Core plugin has been enabled!";
+    static final String ON_ENABLE_MESSAGE = "Settlers Core plugin has been enabled!";
 
-    public static final String ON_DISABLE_MESSAGE = "Settlers Core plugin has been disabled!";
+    static final String ON_DISABLE_MESSAGE = "Settlers Core plugin has been disabled!";
 
     /**
      * Prefix for chat etc.
      */
     public static final String PREFIX = ChatColor.translateAlternateColorCodes('&',
             "&3[Settlers] ");
+    public static final String COMMAND_SYNTAX_REMOVER = ChatColor.translateAlternateColorCodes('&',
+            "&4Syntax not allowed, contact &3admin &4if you believe this is a bug!");
 }
