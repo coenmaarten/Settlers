@@ -1,0 +1,17 @@
+name: SettlersCore
+version: 0.01
+author: Coenmaarten
+main: com.mcsettlers.core.Main
+description: This is the Main Settlers plugin.
+api-version: 1.16
+website: www.mcsettlers.com
+
+
+commands:
+  settlers:
+    aliases: []
+    description: Thius is the info command
+  settlers menu:
+    aliases: []
+    description: menu command
+    usage: "Usage: /<command> menu"
